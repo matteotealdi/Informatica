@@ -1,0 +1,21 @@
+Esercitazione
+
+Ex.1
+Realizzare un modulo numeri.php, composto da un etichetta, riportante un numero casuale tra 5 e 9 e da una combo-box
+ con i numeri da uno 0 a 9, caricati attraverso un vettore php.
+Estrarre il numero casuale solo se in get non è presente il pulsante bInvia. 
+Sottomettere il form attraverso un pulsante invia, se il numero indicato dall'utente è maggiore del primo estratto
+ segnalare che la selezione è corretta, altrimenti richiedere all'utente di ripetere l'operazione.
+Nella parte sottostante riportare un link di richiamo a matchJson.php che stampi un json classe con gli attributi
+dei 2 numeri in quel momento visualizzati.
+
+Ex.2
+Realizzare un modulo.php, in cui sono presenti 2 campi di testo e 4 pulsanti di submit aventi come etichetta le 4 operazioni +,*,-,/.
+Nella stessa pagina in alto deve comparire un contatore del numero di operazioni svolte, fino a quel momento.
+Il modulo deve richiamare in post una pagina dispatcher.php, che in base al tipo di operazione richiesta
+ deve a sua volta redirigere su 5 diverse pagine:
+ somma.php, sottrazione.php, moltiplicazione.php, divisione.php o resettaContatore.php
+specializzate a calcolare e stampare la sola operazione per cui sono state invocate.
+Ognuna di questa pagine, a piè deve indicare un link per il ritorno a modulo.html. 
+La pagina resetta.php deve preoccuparsi di azzerare il contatore delle operazioni svolte,
+ ritornando poi il controllo a modulo.php.
